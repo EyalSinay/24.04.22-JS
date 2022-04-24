@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-size: 28px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 32px;
+}
+
+.digit{
+    width: 28px;
+    height: 28px;
+    margin: 8px;
+}
+
+#verify{
+    padding: 8px 32px;
+    margin: 16px;
+    font-size: 16px;
+}
